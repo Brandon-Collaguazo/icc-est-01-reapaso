@@ -5,6 +5,7 @@ public class ViewConsole {
         for(Persona persona : persons) {
             System.out.print(persona + " | ");
         }
+        System.out.println();
     }
     public void printMesssage(String message) {
         System.out.println(message);

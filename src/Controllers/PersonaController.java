@@ -14,7 +14,7 @@ public class PersonaController {
      */
     public void ordenarPorEdad(Persona[] personas) {
         int n = personas.length;
-        for(int i = 0; i < n - 1; i++) {
+        for(int i = 0; i < n; i++) {
             int j = i - 1;
             Persona aux = personas[i];
             while(j >= 0 && personas[j].getEdad() > aux.getEdad()){

@@ -21,11 +21,9 @@ public class App {
         ViewConsole vC = new ViewConsole();
         vC.printMesssage("Personas");
         vC.printPersonaArray(personas);
-        pC.ordenarPorEdad(personas);
-        System.out.println();
         vC.printMesssage("Personas Ordenadas por edad: ");
+        pC.ordenarPorEdad(personas);
         vC.printPersonaArray(personas);
-        System.out.println();
         vC.printMesssage("Buscar persona con edad 99");
         Persona pB = pC.buscarPorEdad(personas, 99);
         if(pB == null) {
